@@ -1,0 +1,26 @@
+<!------inner html------------>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Change Inner HTML</title>
+</head>
+<body>
+
+<div id="my_Div">Love is More,But.. </div>
+<button onclick="changeContent()">Click me</button>
+
+<script>
+    function changeContent() {
+        // Get the reference to the element with the id "myDiv"
+        var myDiv = document.getElementById("my_Div");
+
+        // Change the inner HTML
+        my_Div.innerHTML = "Life is short!";
+    }
+    
+</script>
+
+</body>
+</html>
